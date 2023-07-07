@@ -1,0 +1,32 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+:root {
+  font-size: 62.5%; /* 10px */
+}
+
+body {
+  font-size: 1.6rem;
+  background: #FEECE0;
+}
+
+/* TOP */
+section.top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* INFORMAÇÕES */
+.buttons {
+  display: flex;
+  align-items: center;
+}
+
+section.bottom {
+  background: #9B6647;
+}
