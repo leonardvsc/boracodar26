@@ -14,6 +14,7 @@ body {
   height: 100vh;
   background: #FEECE0;
   overflow: hidden;
+  font-family: "Source-serif-pro", serif;
 }
 
 .top {
@@ -30,13 +31,13 @@ picture img {
 }
 
 .info h1 {
-  font-size: 7.2rem;
+  font-size: 5.2rem;
   color: #58190A;
 }
 
 .info p {
   color: #58190A;
-  font-size: 3.8rem;
+  font-size: 2.8rem;
   margin: .8rem 0;
 }
 
@@ -50,7 +51,7 @@ picture img {
 .buttons span,
 .buttons p {
   color: #9B6647;
-  font-size: 3.5rem;
+  font-size: 2.8rem;
 }
 
 button {
@@ -65,10 +66,30 @@ button {
   gap: 6.4rem;
   justify-content: center;
   background: #9B6647;
+  color: #FEECE0;
   padding: 6.4rem 5rem;
+}
+
+
+ul, ol {
+  padding-left: 2rem;
+}
+
+li {
+  font-size: 2rem;
+  font-family: "Source-sans-pro", sans-serif;
 }
 
 .col1 > div,
 .col2 > div {
   display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 3.5rem;
+}
+
+.col1 h2,
+.col2 h2 {
+  font-size: 3.8rem;
+  font-family: "Source-sans-pro", sans-serif;
 }
